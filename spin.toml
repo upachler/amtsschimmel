@@ -13,3 +13,13 @@ allowed_http_hosts = []
 route = "/..."
 [component.build]
 command = "cargo build --target wasm32-wasi --release"
+
+[[component]]
+id = "amtsschimmel-get"
+source = "amtsschimmel-get/target/wasm32-wasi/release/amtsschimmel_get.wasm"
+allowed_http_hosts = []
+[component.trigger]
+route = "/amtsschimmel-get"
+[component.build]
+command = "cargo build --target wasm32-wasi --release"
+workdir = "amtsschimmel-get"
