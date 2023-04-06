@@ -8,7 +8,7 @@ version = "0.1.0"
 [[component]]
 id = "amtsschimmel"
 source = "target/wasm32-wasi/release/amtsschimmel.wasm"
-allowed_http_hosts = []
+allowed_http_hosts = ["warten.stuttgart.de"]
 [component.trigger]
 route = "/import"
 [component.build]
