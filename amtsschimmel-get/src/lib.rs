@@ -57,7 +57,7 @@ fn handle_amtsschimmel_get(req: Request) -> Result<Response> {
 
     Ok(http::Response::builder()
         .status(200)
-        .header("Content-Type", "application/json; charset=utf-8")
+        .header("Content-Type", "text/plain;charset=utf-8")
         .body(Some(response.into()))?)
 }
 

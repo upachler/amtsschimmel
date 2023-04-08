@@ -3,7 +3,7 @@
 version = 3
 
 [[package]]
-name = "amtsschimmel"
+name = "amtsschimmel-get"
 version = "0.1.0"
 dependencies = [
  "anyhow",
@@ -14,7 +14,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "amtsschimmel-get"
+name = "amtsschimmel-import"
 version = "0.1.0"
 dependencies = [
  "anyhow",
